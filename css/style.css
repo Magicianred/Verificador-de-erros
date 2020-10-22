@@ -1,5 +1,44 @@
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
+body{
+    background-color: rgb(255, 242, 242);
 }
+
+
+#topo{
+    background-color: rgb(233, 56, 56);
+}
+
+.faixa{
+    background-color: black;
+    height: 10px;
+}
+
+
+.footer {
+  
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    margin-top: 20px;
+}
+
+
+#alerta {
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    max-height: 10px;
+
+}
+
+#titulo {
+    margin-top: 50px;
+}
+
+#pesquisador{
+   width: 400px;
+   margin: 0 auto;
+   margin-top: 50px;
+   
+}
+

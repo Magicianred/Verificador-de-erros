@@ -11,7 +11,7 @@ const valor = []
 botao.addEventListener('click', condiçao)
 
 entrada.addEventListener('input', ()=>{
-    valor[0] = entrada.value
+    valor[0] = entrada.value.toUpperCase()
 }) 
 
 function condiçao(){
@@ -28,9 +28,9 @@ try{
  </div>`
 
 }catch(err){
-  alerta.innerHTML = `<div class="alert alert-success" role="alert" >
-  <h4 class="alert-heading" "text-center">Erro na busca</h4>
-  <p>Não foi encontrado nenhum erro com essa nomenclatura</p>`
+  alerta.innerHTML = `<div class="alert alert-success" role="alert" style= "background-color: rgb(223, 31, 31);  >
+  <h4 class="alert-heading" style = "color: black;">Erro na busca</h4>
+  <p style = "color: black;">Não foi encontrado nenhum erro com essa nomenclatura</p>`
 }
 }
     
