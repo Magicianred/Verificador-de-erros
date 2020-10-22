@@ -23,7 +23,9 @@ img{
 }
 
 .footer {
-  
+    
+    background-color: black;
+    height: 10px; 
     position:fixed;
     bottom: 0;
     width:100%;
