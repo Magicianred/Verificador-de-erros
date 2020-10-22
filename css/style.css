@@ -46,9 +46,10 @@ img{
 }
 
 #pesquisador{
-   width: 400px;
+   width: 700px;
    margin: 0 auto;
    margin-top: 50px;
+   max-width: 50%;
    
 }
 
