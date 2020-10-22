@@ -20,7 +20,7 @@ function condiçao(){
   })
  
 try{
-  alerta.innerHTML = `<div class="alert alert-success" role="alert" >
+  alerta.innerHTML = `<div class="alert alert-success" role="alert" style= "border-color: black;" >
   <h4 class="alert-heading" "text-center">ERRO ${valor[0]}</h4>
   <p>${filtrar[0].__EMPTY_1}</p>
   <hr>
@@ -28,9 +28,11 @@ try{
  </div>`
 
 }catch(err){
-  alerta.innerHTML = `<div class="alert alert-success" role="alert" style= "background-color: rgb(223, 31, 31);  >
-  <h4 class="alert-heading" style = "color: black;">Erro na busca</h4>
-  <p style = "color: black;">Não foi encontrado nenhum erro com essa nomenclatura</p>`
+  alerta.innerHTML = `<div class="alert alert-success" role="alert" style=" background-color: #ee3338"  >
+  <h4 class="alert-heading" "text-center" style= "color: black;" >ERRO NA BUSCA.</h4>
+  <hr>
+  <p class="mb-0" style= "color: black;" >Nenhum erro encontrado com esse nome.</p>
+ </div>`
 }
 }
     
