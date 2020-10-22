@@ -5,6 +5,7 @@ body{
 
 #topo{
     background-color: rgb(233, 56, 56);
+    
 }
 
 .faixa{
@@ -37,9 +38,10 @@ body{
 }
 
 #pesquisador{
-   width: 400px;
+   width: 350px;
    margin: 0 auto;
    margin-top: 50px;
+
    
    
 }
