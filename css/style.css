@@ -19,13 +19,13 @@ img{
 
 .faixa{
     background-color: black;
-    height: 10px;  
+    height: 5px;  
 }
 
 .footer {
     
     background-color: black;
-    height: 10px; 
+    height: 5px; 
     position:fixed;
     bottom: 0;
     width:100%;
@@ -34,9 +34,9 @@ img{
 
 #alerta {
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     max-height: 10px;
 
 }
