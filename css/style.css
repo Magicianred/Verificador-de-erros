@@ -42,16 +42,30 @@ img{
 }
 
 #titulo {
-    margin-top: 50px;
+    margin-top: 20px;
+    
 }
 
 #pesquisador{
    
    margin: 0 auto;
-   margin-top: 50px;
+   margin-top: 40px;
    max-width: 75%;
    
 }
+
+#seletor{
+
+    font-size: 15px;
+    border-color: black;
+    color: white;
+    background-color: #ee3338 ;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 40%;
+    height: 35px;
+    
+ }
 
 
 

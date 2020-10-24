@@ -1,4 +1,4 @@
-import Dados from './arquivo.js'
+import Dados from '../arquivos/arquivo.js'
 
 console.log(Dados)
 
@@ -9,7 +9,6 @@ const alerta = document.getElementById("alerta")
 const valor = []
 
 botao.addEventListener('click', condiçao)
-
 entrada.addEventListener('input', ()=>{
     valor[0] = entrada.value.toUpperCase()
 }) 
