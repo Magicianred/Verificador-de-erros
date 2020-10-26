@@ -36,8 +36,8 @@ img{
     margin-left: 20px;
     margin-top: 70px;
     margin-right: 20px;
-    margin-bottom: 200px;
-    max-height: 10px;
+    margin-bottom: 80px;
+    max-height: 100%;
 
 }
 
@@ -63,6 +63,18 @@ img{
     margin: 0 auto;
     margin-top: 10px;
     max-width: 40%;
+    height: 35px;
+    
+ }
+
+ #voltar{
+
+    font-size: 15px;
+    border-color: black;
+    color: white;
+    background-color:rgb(41, 172, 41) ;
+    margin: 0 auto;
+    max-width: 30%;
     height: 35px;
     
  }
