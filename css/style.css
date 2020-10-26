@@ -42,7 +42,6 @@ img{
 }
 
 #titulo {
-    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     margin: 0 auto;
@@ -68,6 +67,7 @@ img{
     margin-top: 10px;
     max-width: 40%;
     height: 35px;
+    padding: 2px;
     
  }
 
@@ -80,6 +80,7 @@ img{
     margin: 0 auto;
     max-width: 30%;
     height: 35px;
+    padding: 2px ;
     
  }
 
