@@ -23,7 +23,7 @@ function condiçao(){
  
 try{
   alerta.innerHTML = `<div class="alert alert-success" role="alert" style= "border-color: black;" >
-  <h4 class="alert-heading" "text-center">ERRO ${valor[0]}</h4>
+  <h4 class="alert-heading" "text-center">ERRO ${valor[0]} - ${valor2[0]}</h4>
   <p>${filtrar[0].__EMPTY_1}</p>
   <hr>
   <p class="mb-0">${filtrar[0].__EMPTY_2}</p>
