@@ -45,8 +45,14 @@ img{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    max-width: 80%;
+    max-width: 100%;
     
+}
+
+#tipo_de_err{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
 }
 
 #pesquisador{
