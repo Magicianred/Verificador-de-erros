@@ -43,16 +43,11 @@ img{
 
 #titulo {
     margin-top: 20px;
-
-    
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
-#tipo_de_err{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 0 auto;
-}
 
 #pesquisador{
    
