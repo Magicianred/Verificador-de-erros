@@ -23,16 +23,16 @@ function condiçao(){
 try{
   alerta.innerHTML = `<div class="alert alert-success" role="alert" style= "border-color: black;" >
   <h4 class="alert-heading text-center" >Binario ${valor[0]} - Decimal ${valor2[0]}</h4>
-  <p>${filtrar[0].__EMPTY_1}</p>
+  <p class= "text-center">${filtrar[0].__EMPTY_1}</p>
   <hr>
-  <p class="mb-0">${filtrar[0].__EMPTY_2}</p>
+  <p class="mb-0 text-center">${filtrar[0].__EMPTY_2}</p>
  </div>`
 
 }catch(err){
   alerta.innerHTML = `<div class="alert alert-success" role="alert" style=" background-color: #ee3338"  >
   <h4 class="alert-heading text-center"  style= "color: white;" >ERRO NA BUSCA.</h4>
   <hr>
-  <p class="mb-0" style= "color: black;" >Nenhum erro encontrado com esse nome.</p>
+  <p class="mb-0 text-center" style= "color: white;" >Nenhum erro encontrado com esse nome.</p>
  </div>`
  
 
