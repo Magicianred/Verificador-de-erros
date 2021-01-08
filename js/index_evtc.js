@@ -3,16 +3,23 @@ import Dados from '../arquivos/evtc.js'
 const entrada = document.getElementById('ent')
 const botao = document.getElementById("botao")
 const alerta = document.getElementById("alerta")
+const mensagem = document.getElementById('mensagem')
 
+let i =0
 const valor = []
 const valor2 = []
 
 
 botao.addEventListener('click', condiçao)
-entrada.addEventListener('input', ()=>{
+ 
+
+
+entrada.addEventListener('keyup', (e)=>{
     valor[0] = entrada.value
     valor2[0] = parseInt(valor[0], 2)
-
+    if(e.key != "1" && e.key != "0" && e.key != "Backspace" ){
+      window.alert("Digite Somente 0 ou 1")
+    }
 }) 
 
 function condiçao(){
